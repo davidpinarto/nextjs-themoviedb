@@ -5,6 +5,7 @@ import NowPlayingMoviesList from '@/ui/NowPlayingMoviesList';
 import PopularMoviesList from '@/ui/PopularMoviesList';
 
 import styles from './page.module.css';
+import TopRatedMoviesList from '@/ui/TopRatedMoviesList';
 
 export default async function Page() {
   return (
@@ -24,6 +25,10 @@ export default async function Page() {
         <section className={styles['popular-section']}>
           <h2>POPULAR</h2>
           <PopularMoviesList />
+        </section>
+        <section className={styles['top-rated-section']}>
+          <h2>TOP RATED</h2>
+          <TopRatedMoviesList />
         </section>
       </section>
     </main>

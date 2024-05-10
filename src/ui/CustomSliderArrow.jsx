@@ -63,3 +63,25 @@ export function PopularPrevArrow(props) {
     />
   );
 }
+
+export function TopRatedNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
+
+export function TopRatedPrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
