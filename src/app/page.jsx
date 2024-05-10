@@ -1,9 +1,10 @@
 import { Suspense } from 'react';
 import Hero from '@/ui/Hero';
 import UpcomingMoviesList from '@/ui/UpcomingMoviesList';
+import NowPlayingMoviesList from '@/ui/NowPlayingMoviesList';
+import PopularMoviesList from '@/ui/PopularMoviesList';
 
 import styles from './page.module.css';
-import NowPlayingMoviesList from '@/ui/NowPlayingMoviesList';
 
 export default async function Page() {
   return (
@@ -19,6 +20,10 @@ export default async function Page() {
         <section className={styles['now-playing-section']}>
           <h2>NOW PLAYING</h2>
           <NowPlayingMoviesList />
+        </section>
+        <section className={styles['popular-section']}>
+          <h2>POPULAR</h2>
+          <PopularMoviesList />
         </section>
       </section>
     </main>

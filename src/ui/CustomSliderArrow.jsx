@@ -41,3 +41,25 @@ export function NowPlayingPrevArrow(props) {
     />
   );
 }
+
+export function PopularNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
+
+export function PopularPrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
