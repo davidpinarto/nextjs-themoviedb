@@ -3,7 +3,7 @@ import { inter } from '@/ui/fonts';
 import Footer from '@/ui/Footer';
 
 import styles from './layout.module.css';
-import '@/ui/globals.css';
+import '@/ui/global.css';
 
 export default async function RootLayout({ children }) {
   return (

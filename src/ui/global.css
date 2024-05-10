@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+.slick-slider,
+.slick-initialized,
+.slick-list,
+.slick-track {
+  height: 100% !important;
+}
+
+.slick-track > div > div {
+  height: 100%;
+}
+
+.slick-track > div > div > div {
+  height: 100%;
+  position: relative;
+}

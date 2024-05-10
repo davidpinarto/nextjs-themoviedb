@@ -13,6 +13,8 @@
         "import/prefer-default-export": "off",
         "no-console": "off",
         "import/no-unresolved": "off",
-        "import/extensions": "off"
+        "import/extensions": "off",
+        "react/jsx-props-no-spreading": "off",
+        "import/no-extraneous-dependencies": "off"
     }
 }

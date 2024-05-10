@@ -1,5 +1,12 @@
+import { Suspense } from 'react';
+import Hero from '@/ui/Hero';
+
 export default async function Page() {
   return (
-    <h1>Hello World</h1>
+    <main>
+      <Suspense fallback={<div>Loading...</div>}>
+        <Hero />
+      </Suspense>
+    </main>
   );
 }
