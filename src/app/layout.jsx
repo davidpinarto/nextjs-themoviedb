@@ -11,8 +11,8 @@ export async function generateMetadata() {
 
   return {
     title: {
-      template: '%s | David Pinarto',
-      default: 'TheMovieDB',
+      template: '%s | TheMoviDB',
+      default: 'TheMovieDB David Pinarto',
     },
     description: 'TheMovieDB Web Front-End with TheMovieDB API that created with Next.js by David Pinarto',
     applicationName: 'TheMovieDB David Pinarto',
