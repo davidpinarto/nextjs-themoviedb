@@ -19,3 +19,25 @@ export function UpcomingPrevArrow(props) {
     />
   );
 }
+
+export function NowPlayingNextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}
+
+export function NowPlayingPrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{ ...style }}
+      onClick={onClick}
+    />
+  );
+}

@@ -3,7 +3,10 @@
     margin: 20px 0;
 }
 
-.upcoming-section {
+.upcoming-section,
+.now-playing-section,
+.popular-section,
+.top-rated-section {
     display: flex;
     flex-direction: column;
     gap: 20px;
